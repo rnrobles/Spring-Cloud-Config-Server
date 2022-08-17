@@ -3,8 +3,7 @@ Pruebas con un servidor de configuración
 
 # Porque Config-Server?
 
-El siguiente servidor de configuración nos permite que un sistema distribuido solicite la configuración al servidor, con lo cual nos ahorra volver a levantar los servicios o realizar cambios al vuelo
-
+El siguiente servidor de configuración nos permite que un sistema distribuido solicite la configuración al servidor, con lo cual nos permite realizar cambios al vuelo y asi tener volver a levantar los servicios
 
 # Creación del Servidor 
 
@@ -49,9 +48,7 @@ spring.cloud.config.server.git.clone-on-start: Si realiza una copia cuando se in
 spring.cloud.config.server.default-label: la rama del repositorio
 server.port: puerto donde se levanta el servidor de configuración 
 
-
 en el repositorio tenemos los siguientes archivos con estas configuraciones
-
 
 config-client.properties
 
@@ -59,7 +56,6 @@ config-client.properties
 application.name = default profile 
 
 ````
-
 
 config-client-prod.properties
 

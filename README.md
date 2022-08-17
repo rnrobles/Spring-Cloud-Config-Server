@@ -11,7 +11,7 @@ El siguiente servidor de configuración nos permite que un sistema distribuido s
 Lo primero es crear un proyecto por medio del asistente con la única dependencia de Config Server
 
 
-![](./capturas/captura1.png)
+![](./capturas/Captura1.png)
 
 
 

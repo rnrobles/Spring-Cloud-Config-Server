@@ -3,7 +3,7 @@ Pruebas con un servidor de configuración
 
 # Porque Config-Server?
 
-El siguiente servidor de configuración nos permite que un sistema distribuido solicite la configuración al servidor, con lo cual nos permite realizar cambios al vuelo y asi tener volver a levantar los servicios
+El siguiente servidor de configuración nos permite que un sistema distribuido solicite la configuración al servidor, con lo cual nos permite realizar cambios al vuelo y asi no tener que volver a levantar los servicios
 
 # Creación del Servidor 
 

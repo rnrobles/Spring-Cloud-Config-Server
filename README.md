@@ -11,7 +11,7 @@ El siguiente servidor de configuración nos permite que un sistema distribuido s
 Lo primero es crear un proyecto por medio del asistente con la única dependencia de Config Server
 
 
-![](./capturas/captura1.png)
+![](./capturas/Captura1.png)
 
 
 En la clase principal unicamente se añade la anotación @EnableConfigServer
@@ -78,6 +78,6 @@ application.name = dev profile
 y de acuerdo a la ruta que especifiquemos, obtendremos una u otra configuración
 
 
-![](./capturas/captura2.png)
+![](./capturas/Captura2.png)
 
-![](./capturas/captura3.png)
+![](./capturas/Captura3.png)

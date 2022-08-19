@@ -67,7 +67,7 @@ application.name = prod profile
 
 ````
 
-config-client-prod.properties
+config-client-dev.properties
 
 ````
 application.name = dev profile 

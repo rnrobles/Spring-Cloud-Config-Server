@@ -44,8 +44,11 @@ server.port=1234
 ````
 
 spring.cloud.config.server.git.uri: Ruta donde se almacenan las configuraciones
+
 spring.cloud.config.server.git.clone-on-start: Si realiza una copia cuando se inicia el servidor
+
 spring.cloud.config.server.default-label: la rama del repositorio
+
 server.port: puerto donde se levanta el servidor de configuración 
 
 en el repositorio tenemos los siguientes archivos con estas configuraciones
@@ -87,7 +90,9 @@ Una vez que tenemos el servidor de configuración corriendo, podemos crear un cl
 ![](./capturas/Captura4.png)
 
 Config Client habilita el cliente de configuracion
+
 Spring Boot Actuator Habilita algunos endpoints para poder recargar las configuraciones, entre otros mas
+
 Spring Boot DevTools Nos ayuda a recargar el servicio cuando realizamos cambios en desarrollo
 
 
@@ -104,11 +109,14 @@ server.port=1112
 ````
 
 spring.application.name: es el nombre del archivo de nuestras configuraciones
-spring.profiles.active: es el perfil activo
-spring.config.import=optional:configserver: ruta de nuestro servidor, con optional evitamos una excepción si no esta disponible el servidor
-management.endpoints.web.exposure.include: expone los endpoints de actuator
-server.port: puerto donde inicia el cliente
 
+spring.profiles.active: es el perfil activo
+
+spring.config.import=optional:configserver: ruta de nuestro servidor, con optional evitamos una excepción si no esta disponible el servidor
+
+management.endpoints.web.exposure.include: expone los endpoints de actuator
+
+server.port: puerto donde inicia el cliente
 
 a continuación creamos una clase donde podemos leer los valores de configuración
 
